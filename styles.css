@@ -65,7 +65,16 @@ body{
 }
 
 .tool-btn{
+    background-color: lightblue;
+    color:  black;
+    font-weight: bold;
+    border: solid black;
     padding: 10px 20px;
+}
+
+.tool-btn:hover{
+    background-color: white;
+    color: black;
 }
 
 #color-sample{
