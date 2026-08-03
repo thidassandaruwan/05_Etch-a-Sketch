@@ -65,7 +65,7 @@ body{
 }
 
 .tool-btn{
-    background-color: lightblue;
+    background-color: white;
     color:  black;
     font-weight: bold;
     border: solid black;
@@ -79,7 +79,7 @@ body{
 }
 
 .tool-btn[aria-pressed="true"]{
-    background-color: white;    
+    background-color: lightblue;    
 }
 
 #color-sample{
