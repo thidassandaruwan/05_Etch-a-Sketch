@@ -103,6 +103,11 @@ drawingBoard.addEventListener("mousedown", (event) => {
     }
 });
 
+// prevent accidental HTML drag detection
+drawingBoard.addEventListener("dragstart", (event) => {
+    event.preventDefault();
+});
+
 
 // functions
 function renderDrawingBoard(number){
