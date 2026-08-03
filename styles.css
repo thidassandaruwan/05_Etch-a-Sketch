@@ -70,11 +70,16 @@ body{
     font-weight: bold;
     border: solid black;
     padding: 10px 20px;
+    box-shadow: 3px 3px 3px black;
 }
 
 .tool-btn:hover{
+    opacity: 0.7;
     background-color: white;
-    color: black;
+}
+
+.tool-btn[aria-pressed="true"]{
+    background-color: white;    
 }
 
 #color-sample{
@@ -91,7 +96,7 @@ body{
 
 .pixel{
     flex: 1 0 calc(100%  / var(--grid-size));
-    padding: 1px;
+    padding: 2px;
     background-color: white;
     aspect-ratio: 1 / 1;
 }
